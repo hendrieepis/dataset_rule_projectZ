@@ -170,27 +170,7 @@ Lakukan checklist ini SETIAP KALI sebelum memulai sesi rekam di lokasi baru:
 
 ### 5.1 Struktur Folder
 
-> **dataset/**
->
-> ├── raw/
->
-> │ ├── S01/ S02/ ... S07/ (per subjek)
->
-> │ ├── BG01/ BG02/ ... BG15/ (per background)
->
-> │ ├── G01_R_001/ (gesture_tangan_repetisi)
->
-> │ │ ├── video.svo (raw ZED)
->
-> │ │ ├── video.mp4 (export RGB)
->
-> │ │ ├── skeleton.json (body tracking ZED)
->
-> │ │ └── depth/ (depth frame .png)
->
-> │ ├── G01_L_001/ (tangan kiri)
->
-> └── annotations/ master_labels.csv
+subject(1-5),lokasi (5) -> gerakan (3)-> jarak (dekat, sedang, jauh
 
 ### 5.2 Format Nama Folder Clip
 
